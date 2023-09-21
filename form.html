@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+
+
+<!--
+Post form is username/PW, private info, a Get form is something like a search that can be used to gather data, or otherwise spread around publicly
+-->
+
+
+<form method="GET" action="" name="form">
+
+    <label for="fName">First Name:</label>
+    <input type="text" name="fName" id="fName" value="Enter First Name"/>
+    <br />
+    <label for="lName">Last Name:</label>
+    <input type="text" name="lName" id="lName" value="Enter Last Name"/>
+
+    <br />
+    <br />
+
+    Are you alive?<br />
+    <label>Yes</label><input type="radio" name="alive" id="yes" value="yes">
+    <label>No</label><input type="radio" name="alive" id="no" value="no">
+
+    <br />
+    <br />
+
+    Check all that apply:
+    <br>
+    <input type="checkbox" name="webDesign" value="Web Design" id="Web Design"><label for="Web Design">Web Design</label><br />
+    <input type="checkbox" name="csp" value="CSP" id="CSP"><label for="CSP">Computer Science Princ.</label><br />
+    <input type="checkbox" name="cyber" value="Cyber" id="Cyber"><label for="Cyber">Cybersecurity</label><br />
+
+    <br />
+    <select name="numbers" id="numbers">
+        <option value="default"></option>
+        <option value="One">1</option>
+        <option value="Two">2</option>
+        <option value="Three">3</option>
+        <option value="no"></option>
+        <option value="Four">4</option>
+        <option value="scinotation">9.825*10^12</option>
+        <option value="turtle">Turtle</option>
+        <option value="yes">1976265937265917096016348615301637</option>
+
+
+
+    </select>
+
+    <br />
+    <br />
+
+    <textarea name="comments" rows="10" cols="75">This is where you leave additional comments</textarea>
+
+    <br />
+    <br />
+
+    <input type="submit" value="Take my data!">
+
+</form>
+
+</body>
+</html>
